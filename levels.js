@@ -1,8 +1,6 @@
-// levels.js
-const levelData = [
+const levels = [
   {
-    // Level 0: Tutorial
-    hint: "Drag the yellow block to the right exit!",
+    title: "Tutorial: Slide to Exit",
     blocks: [
       {
         x: 0,
@@ -13,14 +11,70 @@ const levelData = [
         isHoriz: true,
         isTarget: true,
       },
-      { x: 3, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 2, y: 2, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 1, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 4, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
     ],
   },
   {
-    // Level 1: First Challenge
-    hint: "Clear the path!",
+    title: "Level 1: Easy",
     blocks: [
-      // ... more block data here
+      {
+        x: 0,
+        y: 2,
+        w: 2,
+        h: 1,
+        col: [255, 255, 0],
+        isHoriz: true,
+        isTarget: true,
+      },
+      { x: 2, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 2, y: 3, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 1, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 2, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 4, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+    ],
+  },
+  {
+    title: "Level 2: Moderate",
+    blocks: [
+      {
+        x: 0,
+        y: 2,
+        w: 2,
+        h: 1,
+        col: [255, 255, 0],
+        isHoriz: true,
+        isTarget: true,
+      },
+      { x: 1, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 2, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 2, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 4, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 1, y: 3, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 0, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+    ],
+  },
+  {
+    title: "Level 3: Heavy",
+    blocks: [
+      {
+        x: 0,
+        y: 2,
+        w: 2,
+        h: 1,
+        col: [255, 255, 0],
+        isHoriz: true,
+        isTarget: true,
+      },
+      { x: 2, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 2, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 4, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 1, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 3, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 0, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 1, y: 3, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
     ],
   },
 ];
