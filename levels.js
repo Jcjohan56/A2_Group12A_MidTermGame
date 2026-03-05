@@ -35,6 +35,7 @@ const levels = [
       { x: 4, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
     ],
   },
+
   {
     title: "Level 2: Moderate",
     blocks: [
@@ -75,6 +76,59 @@ const levels = [
       { x: 3, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
       { x: 0, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
       { x: 1, y: 3, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+    ],
+  },
+
+  {
+    title: "Level 4: Strain",
+    blocks: [
+      {
+        x: 0,
+        y: 2,
+        w: 2,
+        h: 1,
+        col: [255, 255, 0],
+        isHoriz: true,
+        isTarget: true,
+      },
+
+      { x: 2, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 4, y: 2, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+
+      { x: 3, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 1, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+
+      { x: 2, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 0, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+    ],
+  },
+
+  {
+    title: "Level 5: Double-Detour (Hard)",
+    blocks: [
+      {
+        x: 0,
+        y: 2,
+        w: 2,
+        h: 1,
+        col: [255, 255, 0],
+        isHoriz: true,
+        isTarget: true,
+      },
+
+      { x: 2, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 3, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+      { x: 4, y: 1, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
+
+      { x: 1, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+      { x: 3, y: 0, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+
+      { x: 2, y: 3, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+
+      { x: 3, y: 4, w: 2, h: 1, col: [255], isHoriz: true, isTarget: false },
+
+      { x: 0, y: 3, w: 1, h: 2, col: [255], isHoriz: false, isTarget: false },
     ],
   },
 ];
