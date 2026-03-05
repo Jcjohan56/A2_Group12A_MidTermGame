@@ -112,8 +112,16 @@ function handleGameMousePressed() {
   let adjustedY = mouseY - yOffset;
 
   if (gameCleared) {
+    if (currentLevel >= levels.length - 1) {
+      currentLevel = 0;
+      gameCleared = false;
+      draggingBlock = null;
+      gameState = "home";
+      return;
+    }
+
     currentLevel++;
-    loadLevel(currentLevel % levels.length);
+    loadLevel(currentLevel);
     return;
   }
 
