@@ -84,6 +84,8 @@ class Block {
     if (moved) {
       if (currentLevel === 2) this.cooldownUntil = frameCount + 15;
       if (currentLevel === 3) this.cooldownUntil = frameCount + 20;
+      if (currentLevel === 4) this.cooldownUntil = frameCount + 30;
+      if (currentLevel === 5) this.cooldownUntil = frameCount + 40;
     }
   }
 
