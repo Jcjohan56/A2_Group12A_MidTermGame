@@ -1,54 +1,36 @@
 ## Project Title
 
-Give your project a short, clear title (e.g., "Side Quest Week 1: Interactive Shape Switcher").
+Group 12A Midterm Showcase Game
 
 ---
 
-## Group Members
+## Authors
 
-List the full name, WatID, and student number for each group member.
-If the project is individual, include only your own information.
+Ivy Zhang | 21074840
+Yukie Fan | 21080145
+Jeane Chavinatha Johan | 21105507
+Jolin Li| 21088290
+Fei Fei Chen | 21082249
+Amy Troung | 21087467
 
 ---
 
 ## Description
-
-Briefly describe what your project does.  
-Explain what the user will see, how they can interact, and what inspired the design.
-
-Example:
-
-> This project lets users switch between shapes using keyboard inputs.  
-> It explores how visual feedback can communicate accessibility states.
-
+Our assigned disability is muscular dystrophy, a condition that causes progressive muscle weakness and makes movement harder over time. The game we created called Let Me Out, is a sliding block puzzle where players move the yellow target block to the exit on the right side of the grid by sliding other blocks out of the way. Each block can only move in one direction based on its orientation, so players must carefully plan their moves. As levels progress, puzzles become more constrained and blocks move slightly slower. This reflects the increasing physical effort associated with muscular dystrophy, encouraging players to slow down, plan ahead, and put more effort into completing the same task.
 ---
+## Learning Goals
 
-## Interaction Instructions
-
-Describe how to use or play your project.
-
-- How does the user start?
-- What controls or keys do they use?
-- Any important visual or audio feedback to watch for?
-
-Example:
-
-> Press `S` to switch shapes and `R` to reset the canvas.
-
----
+- Understand how sliding block puzzle mechanics and movement constraints influence problem solving
+- Practice implementing grid-based movement where blocks move only in one direction based on orientation
+- Learn how increasing level constraints and slower movement can raise game difficulty
+- Explore how game mechanics can simulate the growing effort required for movement in muscular dystrophy
 
 ## Assets
 
-List any images, sounds, or other files used in your assets/ folder.
-Include in-text citations for all assets that are not your own, and connect them to your reference list.
-
-Example:
-
-> - `assets/sound/beep.mp3` (created in GarageBand)
-> - `assets/image/background.png` (original artwork)
+N/A
 
 ---
 
-## References
-
-Connect your in-text citations to the reference list along with additional sources that informed your design but were not directly cited. Provide all citations using the ACM reference format.
+## GenAI
+GenAI was used to write the basics of the code with changes and verifications made by Ivy, Jolin, and FeiFei to certain details to achieve what we wanted.
+---
